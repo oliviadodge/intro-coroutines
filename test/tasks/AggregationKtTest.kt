@@ -13,7 +13,7 @@ class AggregationKtTest {
             User("Charlie", 3), User("Alice", 5)
         ).aggregate()
         val expected = listOf(
-            User("Bob", 10),
+            User("Bab", 10),
             User("Alice", 8),
             User("Charlie", 3)
         )
